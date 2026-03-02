@@ -1,8 +1,8 @@
-/* Red Theme:
-   Primary: #dc3545 (Vibrant Red)
-   Background: #1a0808 (Very Dark Red)
+/* Blue Theme:
+   Primary: #007bff (Vibrant Blue)
+   Background: #080c1a (Very Dark Navy)
    Light: #ffffff
-   Secondary: #e4606d
+   Secondary: #6ea8fe
 */
 
 * {
@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #1a0808; /* Very Dark Red background */
+    background-color: #080c1a; /* Very Dark Navy background */
     color: #ffffff; /* White */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -31,16 +31,16 @@ body {
 
 .hello-text {
     font-size: 8rem;
-    color: #dc3545; /* Red Primary */
+    color: #007bff; /* Blue Primary */
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     margin-bottom: 1rem;
-    text-shadow: 0 0 25px rgba(220, 53, 69, 0.4);
+    text-shadow: 0 0 25px rgba(0, 123, 255, 0.4);
 }
 
 .sub-text {
     font-size: 2rem;
-    color: #e4606d; /* Lighter Red secondary */
+    color: #6ea8fe; /* Lighter Blue secondary */
     font-weight: 300;
 }
 
