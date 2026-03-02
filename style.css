@@ -1,8 +1,8 @@
-/* Yellow Theme:
-   Primary: #ffcc00 (Amber/Yellow)
-   Background: #1a1a1a (Deep Charcoal)
+/* Red Theme:
+   Primary: #e63946 (Bright Red)
+   Background: #1a0a0a (Very Dark Red/Black)
    Light: #ffffff
-   Secondary: #b3b3b3
+   Secondary: #ffb3b3
 */
 
 * {
@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #1a1a1a; /* Deep Charcoal background */
+    background-color: #1a0a0a; /* Very Dark Red background */
     color: #ffffff; /* White */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -31,16 +31,16 @@ body {
 
 .hello-text {
     font-size: 8rem;
-    color: #ffcc00; /* Yellow Primary */
+    color: #e63946; /* Red Primary */
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     margin-bottom: 1rem;
-    text-shadow: 0 0 25px rgba(255, 204, 0, 0.4);
+    text-shadow: 0 0 25px rgba(230, 57, 70, 0.4);
 }
 
 .sub-text {
     font-size: 2rem;
-    color: #b3b3b3; /* Light Gray secondary */
+    color: #ffb3b3; /* Light Pinkish Red secondary */
     font-weight: 300;
 }
 
