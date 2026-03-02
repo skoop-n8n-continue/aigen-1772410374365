@@ -1,0 +1,66 @@
+/* Default Design System Values:
+   Primary: #00b7af
+   Dark: #10181f
+   Light: #ffffff
+   Secondary: #6a7071
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #10181f; /* Dark navy */
+    color: #ffffff; /* White */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hello-text {
+    font-size: 8rem;
+    color: #00b7af; /* Primary teal */
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 20px rgba(0, 183, 175, 0.4);
+}
+
+.sub-text {
+    font-size: 2rem;
+    color: #6a7071; /* Secondary gray */
+    font-weight: 300;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hello-text {
+        font-size: 4rem;
+    }
+    .sub-text {
+        font-size: 1.2rem;
+    }
+}
