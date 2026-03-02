@@ -1,8 +1,8 @@
-/* Blue Theme:
-   Primary: #007bff (Vibrant Blue)
-   Background: #08101a (Very Dark Blue/Black)
+/* Green Theme:
+   Primary: #28a745 (Vibrant Green)
+   Background: #081a08 (Very Dark Green)
    Light: #ffffff
-   Secondary: #4dabf7
+   Secondary: #74c17e
 */
 
 * {
@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #08101a; /* Very Dark Blue background */
+    background-color: #081a08; /* Very Dark Green background */
     color: #ffffff; /* White */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -31,16 +31,16 @@ body {
 
 .hello-text {
     font-size: 8rem;
-    color: #007bff; /* Blue Primary */
+    color: #28a745; /* Green Primary */
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     margin-bottom: 1rem;
-    text-shadow: 0 0 25px rgba(0, 123, 255, 0.4);
+    text-shadow: 0 0 25px rgba(40, 167, 69, 0.4);
 }
 
 .sub-text {
     font-size: 2rem;
-    color: #4dabf7; /* Light Blue secondary */
+    color: #74c17e; /* Light Green secondary */
     font-weight: 300;
 }
 
